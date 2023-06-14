@@ -1,0 +1,16 @@
+{
+  "name": "mern-deploy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install-server": "cd proda_back-master && npm install",
+    "start-server": "cd proda_back-master && node src/index.js",
+    "install-client": "cd proda_front-master && npm install",
+    "build-client": "cd proda_front-master && npm run build",
+    "start-client": "cd proda_front-master && npm run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
